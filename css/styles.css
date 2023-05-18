@@ -1,0 +1,79 @@
+header {
+    background-color: #afabcb;
+}
+body {
+    font-family: Raleway;
+}
+.topLogo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+}
+
+#returnTop {
+    text-align: right;
+    padding: 20px;
+}
+footer {
+        background-color: #afabcb;
+}
+.bottomLogo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+}
+.footerNav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 10px;
+}
+#socialMedia {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+}
+@media only screen and (max-width: 600px) { 
+    .flexContainer {
+        flex-direction: column;
+    }
+    .userResearch, .contentStrategy, .userInterface {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+        .wellRead {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            margin: auto;
+            grid-template-areas: 
+            "wellReadImage"
+            "wellReadText";
+        }
+        .wellReadImage {
+            grid-area: wellReadImage;
+            grid-row-start: 1;
+        }
+        .wellReadText {
+            grid-area: wellReadText;
+            grid-row-end: 2;
+        }
+        .deptEd {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            margin: auto;
+            grid-template-areas: 
+            "deptEdImage"
+            "deptEdText";
+        }
+        .deptEdImage {
+            grid-area: deptEdImage;
+            grid-row-start: 1;
+        }
+        .deptEdText {
+            grid-area: deptEdText;
+            grid-row-end: 2;
+        }
+}
