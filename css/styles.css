@@ -1,29 +1,33 @@
 header {
-    background-color: aquamarine;
+    background-color: #D1495B;
 }
 .nav-link {
     color: black;
 }
 body {
     font-family: Raleway;
-    background-color: #FAFAFA;
+    background-color:#F9F8F8;
 }
 .display-4 {
     text-align: center;
+    color: #F3F7F0;
     font-weight: 400;
 }
 .jumbotron {
-    background-color: #d8c5f0;
+    background-color: #00798C;
     text-align: center;
+    margin-bottom: 0;
 }
 .wellReadJumbo {
     width: 300px;
 }
 .lead {
     text-align: center;
+    color: #F3F7F0;
 }
 .follow {
     text-align: center;
+    color: #F3F7F0;
 }
 .row {
     display: flex;
@@ -43,7 +47,7 @@ body {
     padding: 20px;
 }
 footer {
-        background-color: #afabcb;
+        background-color: #00798C;
 }
 .bottomLogo {
     display: inline-block;
@@ -62,4 +66,12 @@ footer {
     -ms-flex-align: start;
 }
 @media only screen and (max-width: 600px) { 
+    .media {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .media-body {
+        margin: 15px;
+    }
 }
