@@ -8,6 +8,9 @@ body {
     font-family: Raleway;
     background-color:#F9F8F8;
 }
+#navbarNav {
+justify-content: end;
+}
 .display-4 {
     text-align: center;
     color: #F3F7F0;
